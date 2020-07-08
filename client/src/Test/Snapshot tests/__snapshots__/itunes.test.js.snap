@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main snapshot test 1`] = `
+<div
+  className="mainClass"
+>
+  <link
+    crossOrigin="anonymous"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    rel="stylesheet"
+  />
+  <div>
+    <nav
+      className="navbar navbar-expand navbar-dark bg-dark"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+      >
+        Itunes Search
+      </a>
+      <div
+        className="mr-auto navbar-nav"
+        onKeyDown={[Function]}
+      />
+    </nav>
+  </div>
+  <h1>
+    Welcome to the itunes search
+  </h1>
+  <br />
+  <p>
+    This is where we search for different itunes resource
+  </p>
+  <br />
+  <form
+    id="/"
+    onSubmit={[Function]}
+  >
+    <input
+      name="query"
+      onChange={[Function]}
+      placeholder="Enter query..."
+      value="flume"
+    />
+    <select
+      onChange={[Function]}
+      value="musicTrack"
+    >
+      <option
+        value="movie"
+      >
+        Movie
+      </option>
+      <option
+        value="podcast"
+      >
+        Podcast
+      </option>
+      <option
+        value="musicTrack"
+      >
+        Music
+      </option>
+      <option
+        value="audiobook"
+      >
+        Audiobook
+      </option>
+      <option
+        value="shortFilm"
+      >
+        Short Film
+      </option>
+      <option
+        value="tvEpisode"
+      >
+        Tv Show
+      </option>
+      <option
+        value="software"
+      >
+        Software
+      </option>
+      <option
+        value="ebook"
+      >
+        ebook
+      </option>
+      <option
+        value="allTrack"
+      >
+        All
+      </option>
+    </select>
+    <button>
+      Submit
+    </button>
+  </form>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col"
+      >
+        <br />
+        <br />
+        <p>
+          <strong>
+            Search results
+          </strong>
+        </p>
+        <br />
+        <br />
+      </div>
+      <div
+        className="col"
+      >
+        <br />
+        <br />
+        <p>
+          <strong>
+            Favorite artists
+          </strong>
+        </p>
+        <br />
+        <br />
+        <ul />
+      </div>
+    </div>
+  </div>
+</div>
+`;
